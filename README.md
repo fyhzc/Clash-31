@@ -5,36 +5,36 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇭🇰 ①香港 | HKG [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30001, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 ②香港 | HKG [解锁] x1.2{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40001, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 ③香港 | HKG [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30022, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 ④香港 | HKG [解锁] x1.2{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40010, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 ⑤香港 | HKG [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30009, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇰🇷 ①韩国 | KOR x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30016, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇰🇷 ②韩国 | KOR x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40000, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇯🇵 ①日本 | JPN x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 30012, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇯🇵 ②日本 | JPN x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30013, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇯🇵 ③日本 | JPN x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30014, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇯🇵 ④日本 | JPN [解锁] x1.2{艾可云}", server: cn-jmcm-1.v2fast.win, port: 50001, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇯🇵 ⑤日本 | JPN [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30017, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cdn.baidu.com}}, udp: true}
-  - {name: "🇨🇳 ①台湾 | TWN [解锁] x1.2{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40002, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇨🇳 ②台湾 | TWN [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30015, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇸🇬 ①新加坡 | SGP x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 40009, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇸🇬 ②新加坡 | SGP x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40007, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇸🇬 ③新加坡 | SGP [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 31000, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇻🇳 ①越南 | VNM [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 20000, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇮🇳 ①印度 | IND x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30020, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇷🇺 ①俄罗斯 | RUS x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20004, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇧🇷 ①英国 | GBR x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 20001, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇫🇷 ①法国 | FRA x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20202, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇳🇱 ①荷兰 | NLD x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20002, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇩🇪 ①德国 | DEU x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20003, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇨🇦 ①加拿大 | CAN x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20101, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇺🇲 ①美国 | USA x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20006, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇺🇲 ②美国 | USA x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 20005, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cdn.baidu.com}}, udp: true}
-  - {name: "🇺🇲 ③美国 | USA [解锁] x1.2{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40012, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇺🇲 ④美国 | USA [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 40013, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: abema.tv}}, udp: true}
-  - {name: "🇺🇲 ⑤美国 | USA [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30023, type: vmess, uuid: 8eb428da-6972-4b49-a6f7-4dbaa4fada96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 ①香港 | HKG [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30001, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 ②香港 | HKG [解锁] x1.2{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40001, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 ③香港 | HKG [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30022, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 ④香港 | HKG [解锁] x1.2{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40010, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 ⑤香港 | HKG [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30009, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇰🇷 ①韩国 | KOR x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30016, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇰🇷 ②韩国 | KOR x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40000, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 ①日本 | JPN x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 30012, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 ②日本 | JPN x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30013, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 ③日本 | JPN x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30014, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 ④日本 | JPN [解锁] x1.2{艾可云}", server: cn-jmcm-1.v2fast.win, port: 50001, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 ⑤日本 | JPN [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30017, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cdn.baidu.com}}, udp: true}
+  - {name: "🇨🇳 ①台湾 | TWN [解锁] x1.2{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40002, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇨🇳 ②台湾 | TWN [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30015, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇸🇬 ①新加坡 | SGP x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 40009, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇸🇬 ②新加坡 | SGP x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40007, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇸🇬 ③新加坡 | SGP [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 31000, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇻🇳 ①越南 | VNM [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 20000, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇮🇳 ①印度 | IND x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30020, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇷🇺 ①俄罗斯 | RUS x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20004, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇬🇧 ①英国 | GBR x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 20001, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇫🇷 ①法国 | FRA x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20202, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇳🇱 ①荷兰 | NLD x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20002, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇩🇪 ①德国 | DEU x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20003, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇨🇦 ①加拿大 | CAN x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20101, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇺🇸 ①美国 | USA x1.0{艾可云}", server: cn-jmcm-1.v2fast.win, port: 20006, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇺🇸 ②美国 | USA x1.0{艾可云}", server: cn-gzcm-1.v2fast.win, port: 20005, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cdn.baidu.com}}, udp: true}
+  - {name: "🇺🇸 ③美国 | USA [解锁] x1.2{艾可云}", server: cn-jmcm-1.v2fast.win, port: 40012, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇺🇸 ④美国 | USA [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 40013, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: abema.tv}}, udp: true}
+  - {name: "🇺🇸 ⑤美国 | USA [解锁] x1.2{艾可云}", server: cn-gzcm-1.v2fast.win, port: 30023, type: vmess, uuid: 6e220452-4a07-4e55-a052-4ec6092390af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -61,16 +61,16 @@ proxy-groups:
       - 🇻🇳 ①越南 | VNM [解锁] x1.2{艾可云}
       - 🇮🇳 ①印度 | IND x1.0{艾可云}
       - 🇷🇺 ①俄罗斯 | RUS x1.0{艾可云}
-      - 🇧🇷 ①英国 | GBR x1.0{艾可云}
+      - 🇬🇧 ①英国 | GBR x1.0{艾可云}
       - 🇫🇷 ①法国 | FRA x1.0{艾可云}
       - 🇳🇱 ①荷兰 | NLD x1.0{艾可云}
       - 🇩🇪 ①德国 | DEU x1.0{艾可云}
       - 🇨🇦 ①加拿大 | CAN x1.0{艾可云}
-      - 🇺🇲 ①美国 | USA x1.0{艾可云}
-      - 🇺🇲 ②美国 | USA x1.0{艾可云}
-      - 🇺🇲 ③美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ④美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ⑤美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ①美国 | USA x1.0{艾可云}
+      - 🇺🇸 ②美国 | USA x1.0{艾可云}
+      - 🇺🇸 ③美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ④美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ⑤美国 | USA [解锁] x1.2{艾可云}
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -96,16 +96,16 @@ proxy-groups:
       - 🇻🇳 ①越南 | VNM [解锁] x1.2{艾可云}
       - 🇮🇳 ①印度 | IND x1.0{艾可云}
       - 🇷🇺 ①俄罗斯 | RUS x1.0{艾可云}
-      - 🇧🇷 ①英国 | GBR x1.0{艾可云}
+      - 🇬🇧 ①英国 | GBR x1.0{艾可云}
       - 🇫🇷 ①法国 | FRA x1.0{艾可云}
       - 🇳🇱 ①荷兰 | NLD x1.0{艾可云}
       - 🇩🇪 ①德国 | DEU x1.0{艾可云}
       - 🇨🇦 ①加拿大 | CAN x1.0{艾可云}
-      - 🇺🇲 ①美国 | USA x1.0{艾可云}
-      - 🇺🇲 ②美国 | USA x1.0{艾可云}
-      - 🇺🇲 ③美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ④美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ⑤美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ①美国 | USA x1.0{艾可云}
+      - 🇺🇸 ②美国 | USA x1.0{艾可云}
+      - 🇺🇸 ③美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ④美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ⑤美国 | USA [解锁] x1.2{艾可云}
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -132,16 +132,16 @@ proxy-groups:
       - 🇻🇳 ①越南 | VNM [解锁] x1.2{艾可云}
       - 🇮🇳 ①印度 | IND x1.0{艾可云}
       - 🇷🇺 ①俄罗斯 | RUS x1.0{艾可云}
-      - 🇧🇷 ①英国 | GBR x1.0{艾可云}
+      - 🇬🇧 ①英国 | GBR x1.0{艾可云}
       - 🇫🇷 ①法国 | FRA x1.0{艾可云}
       - 🇳🇱 ①荷兰 | NLD x1.0{艾可云}
       - 🇩🇪 ①德国 | DEU x1.0{艾可云}
       - 🇨🇦 ①加拿大 | CAN x1.0{艾可云}
-      - 🇺🇲 ①美国 | USA x1.0{艾可云}
-      - 🇺🇲 ②美国 | USA x1.0{艾可云}
-      - 🇺🇲 ③美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ④美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ⑤美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ①美国 | USA x1.0{艾可云}
+      - 🇺🇸 ②美国 | USA x1.0{艾可云}
+      - 🇺🇸 ③美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ④美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ⑤美国 | USA [解锁] x1.2{艾可云}
   - name: 📲 电报信息
     type: select
     proxies:
@@ -167,16 +167,16 @@ proxy-groups:
       - 🇻🇳 ①越南 | VNM [解锁] x1.2{艾可云}
       - 🇮🇳 ①印度 | IND x1.0{艾可云}
       - 🇷🇺 ①俄罗斯 | RUS x1.0{艾可云}
-      - 🇧🇷 ①英国 | GBR x1.0{艾可云}
+      - 🇬🇧 ①英国 | GBR x1.0{艾可云}
       - 🇫🇷 ①法国 | FRA x1.0{艾可云}
       - 🇳🇱 ①荷兰 | NLD x1.0{艾可云}
       - 🇩🇪 ①德国 | DEU x1.0{艾可云}
       - 🇨🇦 ①加拿大 | CAN x1.0{艾可云}
-      - 🇺🇲 ①美国 | USA x1.0{艾可云}
-      - 🇺🇲 ②美国 | USA x1.0{艾可云}
-      - 🇺🇲 ③美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ④美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ⑤美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ①美国 | USA x1.0{艾可云}
+      - 🇺🇸 ②美国 | USA x1.0{艾可云}
+      - 🇺🇸 ③美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ④美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ⑤美国 | USA [解锁] x1.2{艾可云}
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -202,16 +202,16 @@ proxy-groups:
       - 🇻🇳 ①越南 | VNM [解锁] x1.2{艾可云}
       - 🇮🇳 ①印度 | IND x1.0{艾可云}
       - 🇷🇺 ①俄罗斯 | RUS x1.0{艾可云}
-      - 🇧🇷 ①英国 | GBR x1.0{艾可云}
+      - 🇬🇧 ①英国 | GBR x1.0{艾可云}
       - 🇫🇷 ①法国 | FRA x1.0{艾可云}
       - 🇳🇱 ①荷兰 | NLD x1.0{艾可云}
       - 🇩🇪 ①德国 | DEU x1.0{艾可云}
       - 🇨🇦 ①加拿大 | CAN x1.0{艾可云}
-      - 🇺🇲 ①美国 | USA x1.0{艾可云}
-      - 🇺🇲 ②美国 | USA x1.0{艾可云}
-      - 🇺🇲 ③美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ④美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ⑤美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ①美国 | USA x1.0{艾可云}
+      - 🇺🇸 ②美国 | USA x1.0{艾可云}
+      - 🇺🇸 ③美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ④美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ⑤美国 | USA [解锁] x1.2{艾可云}
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -237,16 +237,16 @@ proxy-groups:
       - 🇻🇳 ①越南 | VNM [解锁] x1.2{艾可云}
       - 🇮🇳 ①印度 | IND x1.0{艾可云}
       - 🇷🇺 ①俄罗斯 | RUS x1.0{艾可云}
-      - 🇧🇷 ①英国 | GBR x1.0{艾可云}
+      - 🇬🇧 ①英国 | GBR x1.0{艾可云}
       - 🇫🇷 ①法国 | FRA x1.0{艾可云}
       - 🇳🇱 ①荷兰 | NLD x1.0{艾可云}
       - 🇩🇪 ①德国 | DEU x1.0{艾可云}
       - 🇨🇦 ①加拿大 | CAN x1.0{艾可云}
-      - 🇺🇲 ①美国 | USA x1.0{艾可云}
-      - 🇺🇲 ②美国 | USA x1.0{艾可云}
-      - 🇺🇲 ③美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ④美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ⑤美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ①美国 | USA x1.0{艾可云}
+      - 🇺🇸 ②美国 | USA x1.0{艾可云}
+      - 🇺🇸 ③美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ④美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ⑤美国 | USA [解锁] x1.2{艾可云}
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -273,16 +273,16 @@ proxy-groups:
       - 🇻🇳 ①越南 | VNM [解锁] x1.2{艾可云}
       - 🇮🇳 ①印度 | IND x1.0{艾可云}
       - 🇷🇺 ①俄罗斯 | RUS x1.0{艾可云}
-      - 🇧🇷 ①英国 | GBR x1.0{艾可云}
+      - 🇬🇧 ①英国 | GBR x1.0{艾可云}
       - 🇫🇷 ①法国 | FRA x1.0{艾可云}
       - 🇳🇱 ①荷兰 | NLD x1.0{艾可云}
       - 🇩🇪 ①德国 | DEU x1.0{艾可云}
       - 🇨🇦 ①加拿大 | CAN x1.0{艾可云}
-      - 🇺🇲 ①美国 | USA x1.0{艾可云}
-      - 🇺🇲 ②美国 | USA x1.0{艾可云}
-      - 🇺🇲 ③美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ④美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ⑤美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ①美国 | USA x1.0{艾可云}
+      - 🇺🇸 ②美国 | USA x1.0{艾可云}
+      - 🇺🇸 ③美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ④美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ⑤美国 | USA [解锁] x1.2{艾可云}
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -325,16 +325,16 @@ proxy-groups:
       - 🇻🇳 ①越南 | VNM [解锁] x1.2{艾可云}
       - 🇮🇳 ①印度 | IND x1.0{艾可云}
       - 🇷🇺 ①俄罗斯 | RUS x1.0{艾可云}
-      - 🇧🇷 ①英国 | GBR x1.0{艾可云}
+      - 🇬🇧 ①英国 | GBR x1.0{艾可云}
       - 🇫🇷 ①法国 | FRA x1.0{艾可云}
       - 🇳🇱 ①荷兰 | NLD x1.0{艾可云}
       - 🇩🇪 ①德国 | DEU x1.0{艾可云}
       - 🇨🇦 ①加拿大 | CAN x1.0{艾可云}
-      - 🇺🇲 ①美国 | USA x1.0{艾可云}
-      - 🇺🇲 ②美国 | USA x1.0{艾可云}
-      - 🇺🇲 ③美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ④美国 | USA [解锁] x1.2{艾可云}
-      - 🇺🇲 ⑤美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ①美国 | USA x1.0{艾可云}
+      - 🇺🇸 ②美国 | USA x1.0{艾可云}
+      - 🇺🇸 ③美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ④美国 | USA [解锁] x1.2{艾可云}
+      - 🇺🇸 ⑤美国 | USA [解锁] x1.2{艾可云}
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
